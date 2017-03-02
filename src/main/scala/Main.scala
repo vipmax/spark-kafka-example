@@ -45,7 +45,7 @@ object Main {
         println("input = " + metrics.inputMetrics.recordsRead)
         println("shuffle input = " + metrics.shuffleReadMetrics.recordsRead)
         println("shuffle output = " + metrics.shuffleWriteMetrics.recordsWritten)
-        println("shuffle output = " + metrics.outputMetrics.recordsWritten)
+        println("output = " + metrics.outputMetrics.recordsWritten)
       }
     })
 
